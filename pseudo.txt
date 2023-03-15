@@ -1,0 +1,8 @@
+READ AND WRITE "pesanan" with String array
+READ AND WRITE "total harga" with number
+
+STORE "pesanan" with "nasi goreng"
+STORE "pesanan" with "teh manis"
+STORE "total harga" with CALCULATE "pesanan[0].biaya" add by "pesanan[1].biaya"
+
+PRINT "total harga"
